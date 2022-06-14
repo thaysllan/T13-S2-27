@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans & family= IBM+Plex+Serif & display=swap');
+
+body {  
+    background: black;
+    border-radius: 5px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.logo {
+    display: flex;
+    justify-content:center;
+    padding: 90px;
+}
+h1 {color: white;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color:rgb(82, 80, 79);
+    border-radius: 10px;
+    border-top: 50px;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 100px;
+    width: 700px;
+    left: 272px;
+    top: 286;
+
+}
+
+.caixa-imagem-um , .caixa-imagem-dois , .caixa-imagem-tres , .caixa-imagem-quatro{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 160px;
+    max-height: 160px;
+    border: 1.5px solid;
+    border-radius: 8px;
+    color: #000;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+.caixa-imagem-um:hover , .caixa-imagem-dois:hover , .caixa-imagem-tres:hover , .caixa-imagem-quatro:hover {
+    border-color: #ffffff;
+}
+.figura-um , .figura-dois , .figura-tres , .figura-quatro {
+display: inline-block;
+justify-content: center;
+
+}
+.figura-um:hover , .figura-dois:hover , .figura-tres:hover , .figura-quatro:hover {
+    border-color: #ffffff;
+    transform: scale(1.1);
+}  
+h2 {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(5, 5, 5)
+}
+
+
+h3 {
+   display:flex;
+   justify-content: center;
+   margin: auto;
+   padding: 10px;
+   font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+    border: 9%;
+    text-align: center;
+    transition: all 0.4s;
+    overflow: hidden;
+    width: 150px;
+    left: 272px;
+    top: 100;
+}
+h3:hover {
+    border-color: white;
+    background: white;
+    color: black;
+}
+
